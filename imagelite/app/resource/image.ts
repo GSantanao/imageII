@@ -1,9 +1,8 @@
-export class Image{
-  
-  url?: string;
+export interface Image {
+  id?: string;
   name?: string;
-  extension?: string;
   size?: number;
+  url?: string;
+  extension?: string;
   uploadDate?: string;
-
 }
