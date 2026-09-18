@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
   return(
     <footer className="bg-red-900 text-white py-3"> 
       <div className="container mx-auto px-4 flex justify-between items-center px-4">
-      <h1>Developed by Cleber Feitosa</h1>
+      <h1>Developed by Gabriel Santana</h1>
       </div>   
     </footer>
   );
