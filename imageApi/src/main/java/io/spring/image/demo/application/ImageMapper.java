@@ -11,7 +11,8 @@ import java.io.IOException;
 import java.util.List;
 
 @Component
-public class ImageMapper {
+public class
+ImageMapper {
 
     public Image mapToImage(MultipartFile file, String name, List<String> tags) throws IOException {
         return Image.builder()
